@@ -1,10 +1,10 @@
-# 🧠 Marketing Campaign Segmentation & Classification
+# Marketing Campaign Segmentation & Classification
 
 This project is part of my journey exploring **Machine Learning**, developed as a submission for **Dicoding**. I explored both **clustering** and **classification** techniques using a real-world marketing campaign dataset.
 
 ---
 
-## 📌 Overview
+## Overview
 
 The objective of this project was to:
 - Understand customer segmentation using **clustering** techniques.
@@ -13,20 +13,20 @@ The objective of this project was to:
 
 ---
 
-## 🧪 Methodology
+## Methodology
 
-### 🔍 1. Exploratory Data Analysis (EDA)
+### 1. Exploratory Data Analysis (EDA)
 - Conducted advanced **data cleaning**.
 - Visualized correlations using **heatmaps**.
 - Detected outliers and missing values.
 
-### 📊 2. Clustering
+### 2. Clustering
 - Performed **unsupervised learning** to discover customer segments.
 - Compared performance of:
-  - ✅ K-Means (Accuracy: 26%)
+  - ✅ K-Means (Accuracy: 26%) ((bruh))
   - ✅ DBScan (Accuracy: 64%)
 
-### 🌲 3. Classification
+### 3. Classification
 - Applied **Random Forest Classifier** based on cluster labels.
 - Used **GridSearchCV** for hyperparameter tuning.
 - Implemented **PCA (Principal Component Analysis)** for feature reduction.
@@ -34,7 +34,7 @@ The objective of this project was to:
 
 ---
 
-## 🛠 Tools & Libraries
+## Tools & Libraries
 - Python
 - Pandas, NumPy
 - Scikit-learn
@@ -43,7 +43,7 @@ The objective of this project was to:
 
 ---
 
-## 🚀 Result Highlights
+## Result Highlights
 - Unsupervised segmentation produced meaningful customer groups.
 - Classification model showed high performance in identifying these groups post-clustering.
 - Demonstrated end-to-end pipeline: **EDA → Clustering → Classification → Tuning**.
@@ -51,4 +51,12 @@ The objective of this project was to:
 ---
 
 ## 📂 Project Structure
-├── data/ │ └── marketing_campaign.csv ├── notebooks/ │ └── clustering_analysis.ipynb │ └── classification_model.ipynb ├── README.md
+├── data/ 
+│
+└── marketing_campaign.csv 
+├── notebooks/ 
+│ 
+└── clustering_analysis.ipynb 
+│ 
+├── README.md
+└── classification_model.ipynb 
